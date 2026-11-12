@@ -82,6 +82,7 @@ function renderHome() {
           </li>`).join('')}
       </ol>
       <p class="colophon">Every starter file runs as it is, with no dependencies. The parts marked TODO are yours.</p>
+      <p class="made">Made by Nanto</p>
     </section>`
 
   const rows = [...app.querySelectorAll('.index li')]
@@ -173,6 +174,7 @@ function renderDetail(p) {
           <pre tabindex="0"><code class="src"></code></pre>
           <p class="run">Run it with <code></code></p>
           <a class="next" href="#/${next.slug}"><span>Next project</span><b>${next.title}</b></a>
+          <p class="made">Made by Nanto</p>
         </div>
       </section>
     </article>`

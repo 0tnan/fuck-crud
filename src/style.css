@@ -156,6 +156,9 @@ h1 {
 }
 .index li.on .no { color: var(--red); }
 
+.made { margin-top: 40px; padding-top: 12px; border-top: 1px solid var(--rule); font: 500 0.85rem var(--mono); color: var(--dim); }
+.code .made { margin-top: 72px; }
+
 .colophon { margin-top: 28px; max-width: 46ch; color: var(--dim); font-size: 0.9rem; }
 
 /* ------------------------------------------------------------ detail */
